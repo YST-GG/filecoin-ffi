@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71616020-3581-4e9b-a5da-f9d9d2f1c05d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/cmake/CMakeCargo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/cmake/CMakeDetermineRustCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/cmake/CMakeRustCompiler.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/cmake/CMakeRustInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/cmake/CMakeTestRustCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/cmake/FindRust.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/extern/filecoin-ffi/rust/src/util/rpc.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/clientrpc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/ip.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/ip.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/myserver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../新建文件夹/729/lotus/lib/rpc/websocket.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.codecov.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.dockerignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" />
@@ -842,7 +859,7 @@
       <workItem from="1594278643116" duration="632000" />
       <workItem from="1594291630460" duration="2495000" />
       <workItem from="1595209709282" duration="2502000" />
-      <workItem from="1595403601519" duration="6168000" />
+      <workItem from="1595403601519" duration="6184000" />
     </task>
     <servers />
   </component>

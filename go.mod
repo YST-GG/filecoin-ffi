@@ -1,4 +1,4 @@
-module github.com/YST-GG/filecoin-ffi
+module github.com/filecoin-project/filecoin-ffi
 
 go 1.13
 

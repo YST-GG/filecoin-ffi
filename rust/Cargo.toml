@@ -1,15 +1,3 @@
-#[package]
-#name = "filcrypto"
-#description = "FFI Interface to Filecoin Proofs"
-#version = "0.7.4"
-#authors = ["laser <l@s3r.com>"]
-#license = "MIT OR Apache-2.0"
-#repository = "https://github.com/filecoin-project/filecoin-ffi"
-#readme = "README.md"
-#edition = "2018"
-#publish = false
-
-
 #yst correct
 [package]
 name = "filcrypto"
@@ -48,21 +36,17 @@ reqwest = { version = "^0.10", features = ["blocking", "json"] }
 package = "filecoin-proofs-api"
 version = "4.0.2"
 
-
-#yst correct
-[profile.release]
-lto = true
-
-
-
 [build-dependencies]
 cbindgen = "= 0.14.0"
 
 [dev-dependencies]
 tempfile = "3.0.8"
 
-
 #yst correct
 [dependencies.filecoin-api]
 git = "https://github.com/YST-GG/filecoin-api"
 rev = "fa1e979"
+
+#yst correct
+[profile.release]
+lto = true

@@ -17,6 +17,8 @@ lazy_static! {
     static ref HOST: String = fs::read_to_string("/etc/lotus-remote.conf").unwrap();
 }
 
+
+#[warn(dead_code)]
 pub(crate) fn api_upload<F: AsRef<str>>(file: F) -> Result<String, String> {
     let mut f = File::open(file.as_ref()).map_err(|e| format!("{:?}", e))?;
     let mut buf = vec![];
@@ -89,12 +91,16 @@ pub(crate) fn api_post_polling<T: Serialize + ?Sized>(path: &str, json: &T) -> R
     }
 }
 
+
+#[warn(unused_macros)]
 macro_rules! api_post {
     ($path:literal, $json:expr) => {
         crate::util::rpc::api_post($path, $json);
     };
 }
 
+
+#[warn(unused_macros)]
 macro_rules! api_post_polling {
     ($path:literal, $json:expr) => {
         crate::util::rpc::api_post_polling($path, $json);
